@@ -1,3 +1,2 @@
-import pyperclip
-
-print(pyperclip.paste())
+import pyautogui as pg
+pg.hotkey('command','v')
